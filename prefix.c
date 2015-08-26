@@ -117,6 +117,21 @@ https://github.com/darkcoinproject/darkcoin/blob/master/src/base58.h#L403
 		.private_key_prefix      = 111+128
 	},
 /*
+Hullcoin:
+*/
+	{
+		.name                    = "hullcoin",
+		.public_key_prefix       = 40,
+		.script_prefix           = 100,
+		.private_key_prefix      = 40+128
+	},
+	{
+		.name                    = "hullcoin-testnet",
+		.public_key_prefix       = 65,
+		.script_prefix           = 127,
+		.private_key_prefix      = 65+128
+	},
+/*
 Jumbucks:
 public keys / script:
 https://github.com/jyap808/coinmarketscoin/blob/master/src/base58.h#L276
